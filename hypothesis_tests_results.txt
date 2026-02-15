@@ -1,0 +1,76 @@
+Sales Data Preview:
+         Date     Product  ...  Region  Total_Sales
+0  2024-01-01       Phone  ...    East       261100
+1  2024-01-02  Headphones  ...   North        61624
+2  2024-01-03       Phone  ...    West        43492
+3  2024-01-04  Headphones  ...    East        30895
+4  2024-01-05      Laptop  ...   North       318680
+
+[5 rows x 7 columns]
+
+Columns in Sales Dataset:
+Index(['Date', 'Product', 'Quantity', 'Price', 'Customer_ID', 'Region',
+       'Total_Sales'],
+      dtype='object')
+
+===== DESCRIPTIVE STATISTICS =====
+         Quantity         Price    Total_Sales
+count  100.000000    100.000000     100.000000  
+mean     4.780000  25808.510000  123650.480000  
+std      2.588163  13917.630242  100161.085275  
+min      1.000000   1308.000000    6540.000000  
+25%      2.750000  14965.250000   39517.500000  
+50%      5.000000  24192.000000   97955.500000  
+75%      7.000000  38682.250000  175792.500000  
+max      9.000000  49930.000000  373932.000000  
+
+Mean:
+ Quantity            4.78
+Price           25808.51
+Total_Sales    123650.48
+dtype: float64
+
+Median:
+ Quantity           5.0
+Price          24192.0
+Total_Sales    97955.5
+dtype: float64
+
+Mode:
+ Date           2024-01-01
+Product            Tablet
+Quantity              4.0
+Price                1308
+Customer_ID       CUST001
+Region              North
+Total_Sales          6540
+Name: 0, dtype: object
+
+Standard Deviation:
+ Quantity            2.588163
+Price           13917.630242
+Total_Sales    100161.085275
+dtype: float64
+
+Shapiro Test p-value: 1.259076720571478e-06
+
+===== CORRELATION ANALYSIS =====
+             Quantity     Price  Total_Sales
+Quantity     1.000000  0.008014     0.688107    
+Price        0.008014  1.000000     0.646131    
+Total_Sales  0.688107  0.646131     1.000000    
+
+===== HYPOTHESIS TESTING =====
+T-Test (East vs North) p-value: 0.7096254032191106
+ANOVA p-value: 0.09723678084979993
+
+===== CONFIDENCE INTERVAL =====
+Average Sales: 123650.48 ± 19874.13
+95% CI: [103776.35, 143524.61]
+
+===== BUSINESS INSIGHTS =====
+⚠ Sales data is not normally distributed.
+✖ No significant difference between regions.
+✔ Expected average sales range: 103776.35 – 143524.61
+
+✅ Report saved successfully.
