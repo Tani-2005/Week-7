@@ -74,7 +74,7 @@ python week7.py
 
 ```
 Week-7/
-├── week7.py
+├── statistical_analysis.py
 ├── statistical_analysis.ipynb
 ├── README.md
 ├── requirements.txt
