@@ -78,7 +78,7 @@ Week-7/
 ├── statistical_analysis.ipynb
 ├── README.md
 ├── requirements.txt
-├── business_data/
+├── data/
 │   ├── sales_data.csv
 │   └── customer_churn.csv
 ├── visualizations/
