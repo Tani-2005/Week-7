@@ -81,10 +81,6 @@ Week-7/
 ├── data/
 │   ├── sales_data.csv
 │   └── customer_churn.csv
-├── visualizations/
-│   ├── sales_distribution.png
-│   ├── correlation_heatmap.png
-│   └── regression_plot.png
 ├── hypothesis_tests_results.txt
 ```
 
